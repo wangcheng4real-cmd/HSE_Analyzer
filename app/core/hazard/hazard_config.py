@@ -1,0 +1,17 @@
+class HazardConfig:
+    def __init__(self):
+        self.col_id = "隐患单号"
+        self.col_date = "检查日期"
+        self.col_level = "隐患级别"
+        self.col_flow = "流程类型"
+        self.col_status = "状态"
+        self.col_unit = "责任单位"
+        self.col_category = "隐患分类"
+        self.col_area = "区域"
+        self.col_interface = "接口队办"
+        self.col_team = "责任班组"
+        self.col_verify = "验证状态"
+        self.contractor_flow = "工程公司录入承包商"
+        self.col_main_area = "区域大类"
+        self.col_category_path2 = "隐患类别二级路径"
+        self.col_second_category = "隐患第二级分类"
